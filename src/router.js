@@ -5,9 +5,6 @@ import Router from "vue-router";
 
 import store from './views/store.vue'
 
-import about from './views/about.vue'
-
-
 
 
 
@@ -149,14 +146,11 @@ export default new Router({
                 import ('./views/checkout.vue'),
 
         },
-
-        /*
         {
-            path: '/about',
-            name: 'about',
-            component: about
+            path: "/about",
+            name: "about",
+            component: () => import ('./views/about.vue'),
         },
-        */
         {
             path: "/login",
             name: "login",
