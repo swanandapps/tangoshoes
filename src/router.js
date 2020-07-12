@@ -5,6 +5,9 @@ import Router from "vue-router";
 
 import store from './views/store.vue'
 
+import about from './views/about.vue'
+
+
 
 
 
@@ -149,8 +152,7 @@ export default new Router({
         {
             path: '/about',
             name: 'about',
-            component: () =>
-                import ('./views/about.vue'),
+            component: about
         },
         {
             path: "/login",
