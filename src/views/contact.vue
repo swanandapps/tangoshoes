@@ -5,10 +5,11 @@
 <div id="menu-tabs">
 <router-link  style="text-decoration:none;color:#a52b2b" to="/"     >:: <word   style="color:black" >Home</word> ::</router-link>
 <router-link  style="text-decoration:none;color:#a52b2b" to="/store"     >:: <word style="color:black"  >Products</word> ::</router-link>
+<router-link  style="text-decoration:none;color:#a52b2b" to="/about"     >:: <word  style="color:black">About</word> ::</router-link>
 
 
 
- 
+ <!--
  
   <router-link style="text-decoration:none;color:#a52b2b;z-index:2000" to="" > ::  <word @click="showtypes()" style="color:black">Art</word> ::</router-link>
 
@@ -20,8 +21,8 @@
 
 <router-link  style="text-decoration:none;color:#a52b2b" to="/services"     >:: <word style="color:black" >Services</word> ::</router-link>
 <router-link  style="text-decoration:none;color:#a52b2b" to="/events"     >:: <word style="color:black" >Events</word> ::</router-link>
-<router-link  style="text-decoration:none;color:#a52b2b" to="/about"     >:: <word  style="color:black">About</word> ::</router-link>
 <router-link  style="text-decoration:none;color:#a52b2b" to="/contact"     >:: <word style="color:#a52b2b" >Contact</word> ::</router-link>
+-->
 </div>
  </el-menu>
 
@@ -35,7 +36,7 @@
 
    <p id="about-para">  Write to us to know more about our Art, Design Services or Collaborations</p>
 
-     <el-form  id="checkout-form"  ref="form" :model="form" :rules="rules"  >
+   <el-form  id="checkout-form"  ref="form" :model="form" :rules="rules"  >
 
            <el-form-item label="Name" prop="name">
     <el-input

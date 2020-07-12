@@ -93,11 +93,45 @@ export default new Router({
 
          */
         {
+            path: "/admin",
+            name: "admin",
+
+            component: () =>
+                import ('./views/admin.vue'),
+            /*
+                beforeEnter: (to, from, next) => {
+
+
+                var pass = prompt("Please Enter Password To Verify")
+
+
+
+                if (pass == "apra@123") {
+
+                    next()
+                } else {
+
+                    alert("You are Not Authenticated")
+
+                }
+            }
+*/
+
+
+        },
+        {
             path: "/productdetails/:id",
             name: "productdetails",
             component: () =>
                 import ('./views/productDetails.vue'),
 
+        },
+         
+        {
+            path: "/contact",
+            name: "contact",
+            component: () =>
+                import ('./views/contact.vue'),
         },
         {
             path: "/cart",
@@ -111,6 +145,12 @@ export default new Router({
             component: () =>
                 import ('./views/checkout.vue'),
 
+        },
+        {
+            path: '/about',
+            name: 'about',
+            component: () =>
+                import ('./views/about.vue'),
         },
         {
             path: "/login",

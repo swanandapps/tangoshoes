@@ -23,21 +23,27 @@
  <span>{{orders_count}}</span>
 </el-button>
 </el-col>
+
+<!--
 <el-col :span="2">
   <el-button @click="show_analytics()"  size="large">
  <md-icon>trending_up</md-icon>Analytics 
 </el-button>
 </el-col>
+-->
 <el-col :span="2">
   <el-button @click="show_remove()"  size="large">
  <md-icon> delete_forever</md-icon>Remove Products
 </el-button>
 </el-col>
+
+<!--
 <el-col style="margin-top:2%" :span="2">
   <el-button @click="show_enquiry()"  size="large">
  <md-icon>question_answer</md-icon>Enquiries
 </el-button>
 </el-col>
+-->
 
 
 </el-row>

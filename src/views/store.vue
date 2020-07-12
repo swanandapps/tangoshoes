@@ -102,9 +102,11 @@ Sort
 <el-menu   id="el-menu3" class="el-menu-demo" mode="horizontal" >
 
 <div id="menu-tabs">
-<el-button><router-link  style="text-decoration:none;color:#a52b2b" to="/"     >:: <word style="color:black"   >Home</word> ::</router-link></el-button> 
-<el-button large style="text-decoration:none;color:#a52b2b;font-size: 139%;" v-scroll-to="'#products'"  >:: <word style="color:#a52b2b" >Products</word> ::</el-button>
+<el-button style="border:none"><router-link  style="text-decoration:none;color:#a52b2b" to="/"     >:: <word style="color:black"   >Home</word> ::</router-link></el-button> 
+<el-button large style="text-decoration:none;border:none;color:#a52b2b;font-size: 139%;" v-scroll-to="'#products'"  >:: <word style="color:#a52b2b" >Products</word> ::</el-button>
 
+<el-button style="border:none"><router-link  style="text-decoration:none;color:#a52b2b" to="/about"     >:: <word style="color:black"   >About</word> ::</router-link></el-button> 
+<el-button style="border:none"><router-link  style="text-decoration:none;color:#a52b2b" to="/contact"     >:: <word style="color:black"   >Contact</word> ::</router-link></el-button> 
 
 
 <!--<router-link style="text-decoration:none;color:#a52b2b;z-index:2000" to="" > ::  <word @click="showtypes()" style="color:black">Art</word> ::</router-link>

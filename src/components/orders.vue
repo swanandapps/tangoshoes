@@ -8,6 +8,7 @@
     <h3 style="text-align:center">Product Sales Statistics </h3>
 
   </el-row>
+  <!--
 <el-row style="padding-top:4%">
 <el-col :span="8">
   <el-button @click="showweek()">Weekly</el-button>
@@ -26,7 +27,7 @@
 </el-col>
 
 </el-row>
-
+-->
     
    
   

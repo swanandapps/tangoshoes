@@ -17,41 +17,47 @@
 
  
  
-  <router-link style="text-decoration:none;color:#a52b2b;z-index:2000" to="" > ::  <word @click="showtypes()" style="color:black">Art</word> ::</router-link>
-
-<transition name="fade">
-<div v-if="show_art_types" id="art-types">
-<router-link style="text-decoration:none;color:#a52b2b;background: transparent;z-index:2000" to="/created" ><el-button style="color:#a52b2b"> ::  <word style="color:black;background: transparent;">Created</word> ::</el-button></router-link>
-<router-link style="text-decoration:none;color:#a52b2b;background: transparent;z-index:2000" to="/curated" > <el-button style="color:#a52b2b">::  <word style="color:black;background: transparent;">Curated</word> ::</el-button></router-link></div>
-</transition>
-
-<router-link  style="text-decoration:none;color:#a52b2b" to="/services"     >:: <word style="color:black" >Services</word> ::</router-link>
-<router-link  style="text-decoration:none;color:#a52b2b" to="/events"     >:: <word style="color:black" >Events</word> ::</router-link>
-<router-link  style="text-decoration:none;color:#a52b2b" to="/about"     >:: <word  style="color:#a52b2b">About</word> ::</router-link>
+ 
 <router-link  style="text-decoration:none;color:#a52b2b" to="/contact"     >:: <word style="color:black" >Contact</word> ::</router-link>
 </div>
  </el-menu>
 
-
+<!--
 <el-row id="about-row3" >
         <q id="about-tag-line-quote">“The comprehension of things within the cognizant world is a resultant of a balance amongst all our senses and emotions. Art happens when this balance attains tranquility and transcendence.
 <b>Aprakrta</b> functions at these time-slices of our lives.”</q>
 </el-row>
-
+-->
 <el-row id="about-row3-2">
-    <p id="about-tag-line-quote2">
-        Aprakrta is a contemporary online art studio and store where Art is created and curated. Unique ideas are explored and materialized here in different mediums that are customized to cater your specific spaces and persona.
+    <p style="    text-align: justify;" id="about-tag-line-quote2">
+      High Fashion. Low Prices. That’s our motto and we’ve lived by it since 1997.
+
+All those yummy shoes you love in our stores? Now you can find them easily online too!
+
+New to Shoe Land? Love fashion? Prepare to fall in love. Our design team stays on top of the hottest seasonal trends to bring you the boldest shoe styles and colors most chic.
+
+Shoe Land satisfies all your shoe cravings. See a great look on a red carpet actress you want to make your own? Looking for something special for your first blind date? Or maybe you want to wow the old crowd at your 10-year high school reunion. Give your girlfriends something to talk about at your weekly rant session at the corner bar. Strut into that board meeting with confidence. Whatever your shoe fashion needs, we’ve got you covered.
+
+Don’t worry about making your bank card weep. Shoe Land offers a phenomenal discount over those fancy shmancy department stores. Same great looks, 1/3 to 1/4 off! And you know what that means: more shoes! Buy 3 or 4 pairs for the price of one spendy name-brand pair of shoes.
+
+And just because our shoes are low priced does not mean they’re cheap. You can depend on us to offer only the best quality. Just ask our thousands and thousands of customers in Florida and Georgia who have been shopping with us for years because they know they get great value and shoes built to last.
+
+So don’t be shy! We have new styles every week. We’ll make sure you’ll always be the most stylish in the room. At these prices, you can afford to treat yourself to some fabulous new shoes any time you need a little pickup.
     </p>
 </el-row>
+
+<!--
 <el-row id="about-row3-3">
     <p id="about-tag-line-quote3">
         ‘Aprakrta’  means - beyond the material world – Transcendental. Hence every art work at Aprakrta is passionately created for you to induce transcendence in the spaces where you live, work, relax or just be!
     </p>
 </el-row>
 
+-->
 
 <h1></h1>
 
+<!--
 
 <h1 id="interior-h1">::  <word style="color:black">The Team</word> ::</h1>
 <el-row id="main-div-team">
@@ -98,7 +104,7 @@ This creative team is driven by a common commitment towards experimenting with u
 
 </el-row>
 
-
+-->
 
 
 
@@ -339,7 +345,7 @@ text-align: center;
     margin-left: 0px;
         margin-top: 6%;
         height: 340px;
- background-image: url("../assets/300 x 360/a edit - for About Us.jpg");
+ background-image: url("../assets/shoes/1.jpg");
  background-size: cover
    
   }

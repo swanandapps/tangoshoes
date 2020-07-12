@@ -4,7 +4,7 @@
 
 <div id="login-head-div">
 
-    <h1>Please Login to Access Admin Panel </h1>
+    <h1 style="font-size: medium;">Please Login to Access Admin Panel </h1>
 </div>
 
 <el-form id="login-form" :model="login_form" >
