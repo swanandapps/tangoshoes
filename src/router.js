@@ -149,11 +149,14 @@ export default new Router({
                 import ('./views/checkout.vue'),
 
         },
+
+        /*
         {
             path: '/about',
             name: 'about',
             component: about
         },
+        */
         {
             path: "/login",
             name: "login",
