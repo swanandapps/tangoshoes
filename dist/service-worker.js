@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.b104d452e0b39758496598993060b3df.js"
+  "/precache-manifest.e36c5228d95a6f2e7c5c7ea429d906b4.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "Tangoshoes"});

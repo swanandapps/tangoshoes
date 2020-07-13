@@ -2,6 +2,7 @@ import Vue from 'vue'
 
 import Router from "vue-router";
 
+Vue.use(Router)
 
 import store from './views/store.vue'
 
@@ -19,7 +20,6 @@ import ordersuccess from './views/ordersuccess.vue'
 
 
 
-Vue.use(Router)
 
 export default new Router({
     mode: 'history',
