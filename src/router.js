@@ -8,6 +8,8 @@ import store from './views/store.vue'
 
 import admin from './views/admin.vue'
 import contact from './views/contact.vue'
+import about from './views/about.vue'
+
 import productdetails from './views/productDetails.vue'
 import cart from './views/cart.vue'
 import checkout from './views/checkout.vue'
@@ -64,6 +66,13 @@ export default new Router({
             path: "/login",
             name: "login",
             component: login
+
+        },
+
+        {
+            path: "/about",
+            
+            component: about
 
         },
        

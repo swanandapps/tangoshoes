@@ -4,7 +4,7 @@
 
 <div id="menu-tabs">
 <router-link  style="text-decoration:none;color:#a52b2b" to="/"     >:: <word   style="color:black" >Home</word> ::</router-link>
-<router-link  style="text-decoration:none;color:#a52b2b" to="/store"     >:: <word style="color:black"  >Products</word> ::</router-link>
+<router-link  style="text-decoration:none;color:#a52b2b" to="/"     >:: <word style="color:black"  >Products</word> ::</router-link>
 <router-link  style="text-decoration:none;color:#a52b2b" to="/about"     >:: <word  style="color:black">About</word> ::</router-link>
 
 
