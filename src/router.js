@@ -15,6 +15,7 @@ import checkout from './views/checkout.vue'
 import login from './views/login.vue'
 import ordersuccess from './views/ordersuccess.vue'
 
+import aboutus from './views/Aboutus.vue'
 
 
 
@@ -70,8 +71,8 @@ export default new Router({
 
         {
             path: "/about",
-            
-            component: login
+            name: "aboutus",
+            component: aboutus
 
         },
        
