@@ -12,6 +12,9 @@ Vue.use(Router)
 
 export default new Router({
     mode: 'history',
+
+
+    /*
     routes: [{
             path: '/',
             name: 'store',
@@ -91,7 +94,7 @@ export default new Router({
 
         },
 
-         */
+         
         {
             path: "/admin",
             name: "admin",
@@ -115,7 +118,7 @@ export default new Router({
 
                 }
             }
-*/
+
 
 
         },
@@ -180,4 +183,6 @@ export default new Router({
   
 
     ]
+
+    */
 })
