@@ -5,6 +5,17 @@ import Router from "vue-router";
 
 import store from './views/store.vue'
 
+import admin from './views/admin.vue'
+import about from './views/about.vue'
+import contact from './views/contact.vue'
+import productdetails from './views/productDetails.vue'
+import cart from './views/cart.vue'
+import checkout from './views/checkout.vue'
+import login from './views/login.vue'
+import ordersuccess from './views/ordersuccess.vue'
+
+
+
 
 
 
@@ -12,9 +23,6 @@ Vue.use(Router)
 
 export default new Router({
     mode: 'history',
-
-
-    /*
     routes: [{
             path: '/',
             name: 'store',
@@ -94,13 +102,12 @@ export default new Router({
 
         },
 
-         
+         */
         {
             path: "/admin",
             name: "admin",
 
-            component: () =>
-                import ('./views/admin.vue'),
+            component: admin
             /*
                 beforeEnter: (to, from, next) => {
 
@@ -118,63 +125,51 @@ export default new Router({
 
                 }
             }
-
+*/
 
 
         },
         {
             path: "/productdetails/:id",
             name: "productdetails",
-            component: () =>
-                import ('./views/productDetails.vue'),
+            component: productdetails
 
         },
          
         {
             path: "/contact",
             name: "contact",
-            component: () =>
-                import ('./views/contact.vue'),
+            component: contact
         },
         {
             path: "/cart",
             name: "cart",
-            component: () =>
-                import ('./views/cart.vue'),
+            component: cart
         },
         {
             path: "/checkout",
             name: "checkout",
-            component: () =>
-                import ('./views/checkout.vue'),
+            component: checkout
 
         },
         {
             path: "/about",
             name: "about",
-            component: () => import ('./views/about.vue'),
+            component: about
         },
         {
             path: "/login",
             name: "login",
-            component: () =>
-                import ('./views/login.vue'),
+            component: login
 
         },
-        {
-
-            path: "/services",
-            name: "services",
-            component: () =>
-                import ('./views/services.vue'),
-        },
+       
 
         {
 
             path: '/ordersuccess',
             name: 'ordersuccess',
-            component: () =>
-                import ('./views/ordersuccess.vue'),
+            component: ordersuccess
 
 
         }
@@ -183,6 +178,4 @@ export default new Router({
   
 
     ]
-
-    */
 })
