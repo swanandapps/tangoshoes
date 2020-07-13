@@ -8,7 +8,6 @@ import store from './views/store.vue'
 
 import admin from './views/admin.vue'
 import contact from './views/contact.vue'
-import about from './views/about.vue'
 
 import productdetails from './views/productDetails.vue'
 import cart from './views/cart.vue'
@@ -72,7 +71,7 @@ export default new Router({
         {
             path: "/about",
             
-            component: about
+            component: login
 
         },
        
