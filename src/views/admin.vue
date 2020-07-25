@@ -67,16 +67,11 @@
 
     <el-form-item label="Product Type">
     <el-select v-model="form.type" placeholder="Please Select Product Type">
-      <el-option label="Home Decor" value="home decor"></el-option>
-      <el-option label="Paintings" value="paintings"></el-option>
-       <el-option label="Sclupture" value="sclupture"></el-option>
-        <el-option label="Pottery" value="pottery"></el-option>
-        <el-option label="Furniture" value="furniture"></el-option>
-         <el-option label="Miniature Gardens" value="Miniature Gardens"></el-option>
-          <el-option label="Terrariums" value="Terrariums"></el-option>
-           <el-option label="Water Features " value="Water Features"></el-option>
-            <el-option label="Dish Gardens" value="Dish Gardens"></el-option>
-             <el-option label="Vertical Greens " value="Vertical Greens"></el-option>
+      <el-option label="Casuals" value="casuals"></el-option>
+      <el-option label="Loafer" value="loafer"></el-option>
+       <el-option label="Sneaker" value="sneaker"></el-option>
+        <el-option label="Sports" value="sports"></el-option>
+       
     </el-select>
   </el-form-item>
 
