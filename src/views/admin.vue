@@ -546,7 +546,7 @@ storageref.getDownloadURL().then(function(url) {
         price: this.form.price,
         image: tempthis.main_image,
         description: this.form.description,
-        quantity: "1",
+        quantity: "",
         type: this.form.type
       };
       //////console.log(productdata);
@@ -556,7 +556,7 @@ storageref.getDownloadURL().then(function(url) {
         price: tempthis.form.price,
         image: tempthis.main_image,
         description: tempthis.form.description,
-        quantity: "1",
+        quantity: "",
         type: tempthis.form.type,
         date:date,
         clicked_count:0,
